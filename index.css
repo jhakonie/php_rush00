@@ -1,0 +1,103 @@
+.left_panel {
+	position: relative;
+	float: left;
+	margin-left: 10px;
+	min-height: 1100px;
+	border-radius: 25px;
+	padding-top: 2%;
+	padding-left: 2%;
+	width: 20%;
+	height: 100%;
+	background-color: rgb(180, 180, 180);
+	box-shadow:
+	inset 0 -3em 3em rgba(0,0,0,0.1),
+	0 0  0 2px rgb(255,255,255),
+	0.3em 0.3em 1em rgba(0,0,0,0.3);
+	border: 3px solid rgb(255, 255, 255);
+}
+
+.panel {
+	width: 100%;
+	margin: 20px auto;
+	max-height: 30%;
+	min-width: 775px;
+}
+
+body {
+	background-color: rgb(204, 181, 147);
+}
+
+.id {
+	line-height: 0.1;
+	font-size: 2.2vmin;
+}
+
+.center_panel {
+	position: absolute;
+	box-shadow:
+	inset 0 -3em 3em rgba(0,0,0,0.1),
+	0 0  0 2px rgb(255,255,255),
+	0.3em 0.3em 1em rgba(0,0,0,0.3);
+	background-color: rgb(183, 223, 183);
+	float: left;
+	left: 23%;
+	right: 20%;
+	width: 65%;
+	height: 100%;
+	border: 3px solid rgb(255, 255, 255);
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+
+	margin-left: 80px;
+}
+
+.fruits {
+	float: left;
+	width: 33%;
+}
+
+.vegetables {
+	float: left;
+	width: 33%;
+}
+
+.all {
+	float: left;
+	width: 33%;
+}
+
+.center_panel img {
+	width: 90%;
+	height: 25%;
+	margin-bottom: 10px;
+}
+
+.admin_settings {
+	position: relative;
+	min-height: 100px;
+	float: left;
+	width: 87%;
+	height: 15%;
+	right: 10;
+	padding: 1%;
+	border: 5px solid blue;
+	margin: 1%;
+	border-radius: 10px;
+}
+
+.basket {
+	position: relative;
+	float: left;
+	width: 87%;
+	height: 68%;
+	right: 10;
+	padding: 1%;
+	border: 5px solid gray;
+	margin: 1%;
+	border-radius: 10px;
+}
+
+.basket h2 {
+	font-size: 2.2vmin;
+}
